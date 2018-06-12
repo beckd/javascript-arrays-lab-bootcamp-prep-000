@@ -6,3 +6,7 @@ function destructivelyAppendKitten(name) {
   var name = "Ralph";
   return kittens.push(name);
 }
+function destructivelyPrependKitten(name1) {
+  var name1 = "Bob";
+  return kittens.pop(name1);
+}
