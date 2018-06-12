@@ -16,4 +16,4 @@ function destructivelyRemoveFirstKitten() {
   return kittens.shift();
 }
 var name2 = "Broom";
-kitten.appendKitten(name2);
+return kitten.appendKitten(name2);
